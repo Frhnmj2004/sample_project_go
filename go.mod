@@ -1,0 +1,12 @@
+module sample_project_go
+
+go 1.21
+
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/golang-jwt/jwt/v5 v5.0.0
+	github.com/spf13/viper v1.17.0
+	golang.org/x/crypto v0.12.0
+	gorm.io/driver/sqlite v1.5.4
+	gorm.io/gorm v1.25.5
+)
